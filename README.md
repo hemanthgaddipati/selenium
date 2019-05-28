@@ -25,7 +25,9 @@ driver.manage().window().maximize();
 return driver();
 }
 }
+
 ExcelData:
+
 import java.io.FileInputstream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -43,7 +45,9 @@ string value = cell.getStringCellValue();
 return value;
 }
 }
+
 Annotations:
+
 Package selenium;
 import org.testing.annotations.AfterTest;
 import org.testing.annotations.BeforeTest;
@@ -68,7 +72,9 @@ public void tearDow()
 DriverManager.closeBrowser();
 }
 }
+
 Main:
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
